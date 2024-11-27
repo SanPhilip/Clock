@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <header>
+      <h1>CLOCK</h1>
+      <button id="dark-mode">Dark-Mode</button>
+    </header>
+
+    <div id="clock">
+      <div id="clock-parts">
+        <img id="frame" src="assets/clock.svg" alt="Clock Frame"/>
+        <img id="hour" class="hands" src="assets/hour.svg"/>
+        <img id="minute" class="hands" src="assets/minute.svg"/>
+        <img id="second" src="assets/second.svg"/>
+      </div>
+      <div id="clock-info">
+        <div id="time">00:00:00 AM</div>
+        <div id="day">Monday, Jan 1</div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
